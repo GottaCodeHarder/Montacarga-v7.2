@@ -1,0 +1,35 @@
+﻿Compilación iniciada a las 18/12/2015 23:27:03.
+     1>Proyecto "C:\Users\Master\Desktop\Montacarga v7.2\v7\3D Physics.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _MBCS /Gm /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ModuleSceneIntro.cpp
+         ModuleSceneIntro.cpp
+     1>c:\users\master\desktop\montacarga v7.2\v7\modulesceneintro.cpp(59): warning C4305: 'argumento' : truncamiento de 'double' a 'float'
+     1>c:\users\master\desktop\montacarga v7.2\v7\modulesceneintro.cpp(60): warning C4305: 'argumento' : truncamiento de 'double' a 'float'
+     1>c:\users\master\desktop\montacarga v7.2\v7\modulesceneintro.cpp(247): warning C4244: 'argumento' : conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+     1>c:\users\master\desktop\montacarga v7.2\v7\modulesceneintro.cpp(680): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+     1>c:\users\master\desktop\montacarga v7.2\v7\modulesceneintro.cpp(729): warning C4244: 'inicializando' : conversión de 'float' a 'int'; posible pérdida de datos
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Master\Desktop\Montacarga v7.2\v7\Debug\3D Physics - class5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Master\Desktop\Montacarga v7.2\v7\Debug\3D Physics - class5.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Master\Desktop\Montacarga v7.2\v7\Debug\3D Physics - class5.lib" /MACHINE:X86 /SAFESEH:NO Debug\Application.obj
+         Debug\Color.obj
+         Debug\glmath.obj
+         Debug\Light.obj
+         Debug\log.obj
+         Debug\Main.obj
+         Debug\ModuleAudio.obj
+         Debug\ModuleCamera3D.obj
+         Debug\ModuleInput.obj
+         Debug\ModulePhysics3D.obj
+         Debug\ModulePlayer.obj
+         Debug\ModuleRenderer3D.obj
+         Debug\ModuleSceneIntro.obj
+         Debug\ModuleWindow.obj
+         Debug\PhysBody3D.obj
+         Debug\PhysVehicle3D.obj
+         Debug\Primitive.obj
+         Debug\Timer.obj
+         3D Physics.vcxproj -> C:\Users\Master\Desktop\Montacarga v7.2\v7\Debug\3D Physics - class5.exe
+     1>Compilación del proyecto terminada "C:\Users\Master\Desktop\Montacarga v7.2\v7\3D Physics.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.60
